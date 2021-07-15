@@ -1,0 +1,23 @@
+Here are the requirements to be intalled in you system:
+
+Before you start, you have to create a new envoromental for conda
+   conda create --name "name_of_your_new_eviromental"
+
+Make sure you activated with the command
+   conda activate "name_of_your_new_eviromental"
+    
+1. PHP must be installed on your operating system.
+2. You will need hd-wallet-derive tool.
+   git clone https://github.com/dan-da/hd-wallet-derive
+   cd hd-wallet-derive
+   curl https://getcomposer.org/installer -o installer.php
+   php installer.php
+   php composer.phar install
+
+   Note: You should have a folder called "hd-wallet-derive" containing the PHP library!
+
+3. You must install bit Python Bitcoin library. with the command 
+   pip install bit
+4. You must install web3.py Python Ethereum library.
+   pip install web3
+
