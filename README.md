@@ -1,4 +1,4 @@
-# blockchain_python
+# Multi-Blockchain Wallet in Python
 
 Once you open Anaconda Navigator, go to enviroment, then create a new one called ethereum
 
